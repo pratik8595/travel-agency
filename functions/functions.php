@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect("database-2.cqdbhospaxgw.ap-northeast-1.rds.amazonaws.com", "admin:admin123", "", "database-2");
+$con = mysqli_connect("database-2.cqdbhospaxgw.ap-northeast-1.rds.amazonaws.com", "admin:admin123", "", "pratik");
 
 if (mysqli_connect_errno()) {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
